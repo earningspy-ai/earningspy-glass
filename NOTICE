@@ -1,0 +1,14 @@
+earningspy-glass
+Copyright 2026 EarningSpy
+
+The code is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Not covered by that license:
+
+- Data from the EarningSpy API. Its use is governed by your agreement with
+  EarningSpy and needs your own API key.
+- The EarningSpy name and logo. The license grants no right to use them.
+
+The sample data (sample.json) is invented: no company or figure in it is real.
+
+Nothing this software displays is investment advice.

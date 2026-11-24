@@ -1,0 +1,322 @@
+{
+ "schema_version": "1.2",
+ "methodology_version": "peers_pctile_v1",
+ "layers_included": [
+  "bronze"
+ ],
+ "request": {
+  "anchor_ticker": "ZZAM",
+  "frame": "post",
+  "peer_group": {
+   "column": "INDUSTRY",
+   "value": "Semiconductors"
+  }
+ },
+ "metrics": {
+  "pe": {
+   "label": "P/E",
+   "format": "ratio_x",
+   "scale": "log",
+   "higher_is_better": false,
+   "gradeable": true,
+   "basis": null
+  },
+  "roic": {
+   "label": "ROIC",
+   "format": "percent",
+   "scale": "linear",
+   "higher_is_better": true,
+   "gradeable": true,
+   "basis": null
+  },
+  "market_cap": {
+   "label": "Market Cap",
+   "format": "currency_compact",
+   "scale": "log",
+   "higher_is_better": null,
+   "gradeable": false,
+   "basis": null
+  },
+  "eps_change": {
+   "label": "EPS Change",
+   "format": "percent_signed",
+   "scale": "linear",
+   "higher_is_better": true,
+   "gradeable": true,
+   "color_clip_pct": [
+    2,
+    98
+   ],
+   "basis": null
+  },
+  "sortino": {
+   "label": "Sortino",
+   "format": "ratio_2dp",
+   "scale": "linear",
+   "higher_is_better": true,
+   "gradeable": true,
+   "basis": "pre_event_90d"
+  },
+  "valuation_spread": {
+   "label": "Valuation Spread",
+   "format": "percent_signed",
+   "scale": "linear",
+   "higher_is_better": false,
+   "gradeable": true,
+   "basis": "one_year_spread"
+  },
+  "avg_volume": {
+   "label": "Avg Volume",
+   "format": "shares_count",
+   "scale": "log",
+   "higher_is_better": null,
+   "gradeable": false,
+   "basis": null
+  },
+  "inst_own": {
+   "label": "Institutional Own.",
+   "format": "percent",
+   "scale": "linear",
+   "higher_is_better": null,
+   "gradeable": false,
+   "basis": null
+  },
+  "insider_own": {
+   "label": "Insider Own.",
+   "format": "percent",
+   "scale": "linear",
+   "higher_is_better": null,
+   "gradeable": false,
+   "basis": null
+  }
+ },
+ "grade_scale": {
+  "bands": [
+   {
+    "grade": "A+",
+    "min": 90
+   },
+   {
+    "grade": "A",
+    "min": 75
+   },
+   {
+    "grade": "B",
+    "min": 60
+   },
+   {
+    "grade": "C",
+    "min": 40
+   },
+   {
+    "grade": "D",
+    "min": 20
+   },
+   {
+    "grade": "F",
+    "min": 0
+   }
+  ]
+ },
+ "points": [
+  {
+   "ticker": "ZZAM",
+   "company": "Alder Works Inc",
+   "role": "anchor",
+   "earnings_date": "2026-08-26",
+   "days_left": -8,
+   "session": "AMC",
+   "values": {
+    "pe": 44.2,
+    "roic": 0.08,
+    "market_cap": 2600000000.0,
+    "eps_change": 0.31,
+    "sortino": 1.2,
+    "valuation_spread": -0.12,
+    "avg_volume": 1200000.0,
+    "inst_own": 0.71,
+    "insider_own": 0.03
+   },
+   "percentiles": {
+    "industry": {
+     "pe": 70,
+     "roic": 55,
+     "eps_change": 80,
+     "sortino": 62,
+     "valuation_spread": 40
+    }
+   },
+   "flags": {
+    "plot_pe": true,
+    "eps_positive": true,
+    "fcf_positive": true
+   },
+   "nm": {},
+   "capped": {},
+   "stale": false,
+   "outcomes": {
+    "CAR_3": 0.041
+   },
+   "model": {},
+   "valuation": {
+    "VALUATION_STATE": "newly_cheap"
+   },
+   "reported": true
+  },
+  {
+   "ticker": "ZZNV",
+   "company": "Birch Systems Inc",
+   "role": "reported",
+   "earnings_date": "2026-08-20",
+   "days_left": -14,
+   "session": "AMC",
+   "values": {
+    "pe": 55.0,
+    "roic": 0.42,
+    "market_cap": 3100000000000.0,
+    "eps_change": 0.6,
+    "sortino": 2.4,
+    "valuation_spread": 0.3
+   },
+   "percentiles": {
+    "industry": {
+     "pe": 88,
+     "roic": 98,
+     "eps_change": 95,
+     "sortino": 97,
+     "valuation_spread": 90
+    }
+   },
+   "flags": {
+    "plot_pe": true,
+    "eps_positive": true,
+    "fcf_positive": true
+   },
+   "nm": {},
+   "capped": {},
+   "stale": false,
+   "outcomes": {
+    "CAR_3": 0.02
+   },
+   "model": {},
+   "valuation": {
+    "VALUATION_STATE": "normal"
+   },
+   "reported": true
+  },
+  {
+   "ticker": "ZZIN",
+   "company": "Cobalt Works Inc",
+   "role": "reported",
+   "earnings_date": "2026-07-31",
+   "days_left": -34,
+   "session": "AMC",
+   "values": {
+    "pe": null,
+    "roic": -0.05,
+    "market_cap": 90000000000.0,
+    "eps_change": -0.4,
+    "sortino": -0.3,
+    "valuation_spread": -0.55
+   },
+   "percentiles": {
+    "industry": {
+     "roic": 8,
+     "eps_change": 12,
+     "sortino": 10,
+     "valuation_spread": 18
+    }
+   },
+   "flags": {
+    "plot_pe": false,
+    "eps_positive": false,
+    "fcf_positive": true
+   },
+   "nm": {
+    "pe": "eps not positive"
+   },
+   "capped": {},
+   "stale": false,
+   "outcomes": {},
+   "model": {},
+   "valuation": {
+    "VALUATION_STATE": "still_cheap"
+   },
+   "reported": true
+  },
+  {
+   "ticker": "ZZAD",
+   "company": "Dune Systems Inc",
+   "role": "upcoming",
+   "earnings_date": "2026-09-20",
+   "days_left": 16,
+   "session": "AMC",
+   "values": {
+    "pe": 38.0,
+    "roic": 0.15,
+    "market_cap": 240000000000.0,
+    "eps_change": 0.22,
+    "sortino": 1.6,
+    "valuation_spread": -0.03
+   },
+   "percentiles": {
+    "industry": {
+     "pe": 60,
+     "roic": 72,
+     "eps_change": 68,
+     "sortino": 75,
+     "valuation_spread": 48
+    }
+   },
+   "flags": {
+    "plot_pe": true,
+    "eps_positive": true,
+    "fcf_positive": true
+   },
+   "nm": {},
+   "capped": {},
+   "stale": false,
+   "outcomes": {},
+   "model": {},
+   "valuation": {
+    "VALUATION_STATE": "normal"
+   },
+   "reported": false
+  }
+ ],
+ "distributions": {
+  "industry": {}
+ },
+ "warnings": [],
+ "basis": {
+  "pre_event": "computed pre event",
+  "pre_event_90d": "90 days pre-event window",
+  "one_year_spread": "1 year difference between change in price and change in EPS"
+ },
+ "valuation_states": [
+  {
+   "key": "still_cheap",
+   "label": "still cheap",
+   "notable": true,
+   "strong": true
+  },
+  {
+   "key": "exiting",
+   "label": "exiting cheap",
+   "notable": true,
+   "strong": false
+  },
+  {
+   "key": "newly_cheap",
+   "label": "newly cheap",
+   "notable": true,
+   "strong": true
+  },
+  {
+   "key": "normal",
+   "label": "fairly valued",
+   "notable": false,
+   "strong": false
+  }
+ ]
+}

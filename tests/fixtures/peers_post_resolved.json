@@ -1,0 +1,201 @@
+{
+ "schema_version": "1.2",
+ "methodology_version": "peers_pctile_v1",
+ "layers_included": [
+  "bronze",
+  "silver",
+  "gold"
+ ],
+ "request": {
+  "anchor_ticker": "ZZOR",
+  "frame": "post",
+  "peer_group": {
+   "column": "INDUSTRY",
+   "value": "Software"
+  }
+ },
+ "metrics": {
+  "roic": {
+   "label": "ROIC",
+   "format": "percent",
+   "scale": "linear",
+   "higher_is_better": true,
+   "gradeable": true,
+   "basis": null
+  },
+  "quality_prob": {
+   "label": "Quality Probability",
+   "format": "percent",
+   "scale": "linear",
+   "higher_is_better": true,
+   "gradeable": true,
+   "basis": null
+  },
+  "pre_event_quality_prob": {
+   "label": "Quality Probability (pre-event)",
+   "format": "percent",
+   "scale": "linear",
+   "higher_is_better": true,
+   "gradeable": true,
+   "basis": "pre_event"
+  }
+ },
+ "grade_scale": {
+  "bands": [
+   {
+    "grade": "A+",
+    "min": 90
+   },
+   {
+    "grade": "A",
+    "min": 75
+   },
+   {
+    "grade": "B",
+    "min": 60
+   },
+   {
+    "grade": "C",
+    "min": 40
+   },
+   {
+    "grade": "D",
+    "min": 20
+   },
+   {
+    "grade": "F",
+    "min": 0
+   }
+  ]
+ },
+ "points": [
+  {
+   "ticker": "ZZOR",
+   "company": "Ember Works Inc",
+   "role": "anchor",
+   "earnings_date": "2026-09-09",
+   "days_left": -4,
+   "session": "AMC",
+   "values": {
+    "roic": 0.22,
+    "quality_prob": null,
+    "pre_event_quality_prob": 0.55
+   },
+   "percentiles": {
+    "industry": {}
+   },
+   "flags": {},
+   "nm": {},
+   "capped": {},
+   "stale": false,
+   "outcomes": {},
+   "model": {},
+   "valuation": {},
+   "reported": true
+  },
+  {
+   "ticker": "ZZMS",
+   "company": "Fjord Systems Inc",
+   "role": "reported",
+   "earnings_date": "2026-07-29",
+   "days_left": -46,
+   "session": "AMC",
+   "values": {
+    "roic": 0.3,
+    "quality_prob": null,
+    "pre_event_quality_prob": 0.61
+   },
+   "percentiles": {
+    "industry": {
+     "roic": 80,
+     "pre_event_quality_prob": 70
+    }
+   },
+   "flags": {},
+   "nm": {},
+   "capped": {},
+   "stale": false,
+   "outcomes": {},
+   "model": {},
+   "valuation": {},
+   "reported": true
+  },
+  {
+   "ticker": "ZZSA",
+   "company": "Granite Works Inc",
+   "role": "reported",
+   "earnings_date": "2026-07-22",
+   "days_left": -53,
+   "session": "BMO",
+   "values": {
+    "roic": 0.14,
+    "quality_prob": null,
+    "pre_event_quality_prob": 0.48
+   },
+   "percentiles": {
+    "industry": {
+     "roic": 45,
+     "pre_event_quality_prob": 40
+    }
+   },
+   "flags": {},
+   "nm": {},
+   "capped": {},
+   "stale": false,
+   "outcomes": {},
+   "model": {},
+   "valuation": {},
+   "reported": true
+  }
+ ],
+ "distributions": {
+  "industry": {
+   "roic": {
+    "n": 2
+   },
+   "quality_prob": {
+    "n": 0
+   },
+   "pre_event_quality_prob": {
+    "n": 2
+   }
+  }
+ },
+ "warnings": [
+  {
+   "code": "thin_distribution",
+   "detail": "quality_prob: 0 usable values"
+  }
+ ],
+ "basis": {
+  "pre_event": "computed pre event",
+  "pre_event_90d": "90 days pre-event window",
+  "one_year_spread": "1 year difference between change in price and change in EPS"
+ },
+ "valuation_states": [
+  {
+   "key": "still_cheap",
+   "label": "still cheap",
+   "notable": true,
+   "strong": true
+  },
+  {
+   "key": "exiting",
+   "label": "exiting cheap",
+   "notable": true,
+   "strong": false
+  },
+  {
+   "key": "newly_cheap",
+   "label": "newly cheap",
+   "notable": true,
+   "strong": true
+  },
+  {
+   "key": "normal",
+   "label": "fairly valued",
+   "notable": false,
+   "strong": false
+  }
+ ]
+}

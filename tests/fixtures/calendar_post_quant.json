@@ -1,0 +1,1649 @@
+{
+ "data": [
+  {
+   "EARNINGS_DATE": "2026-09-17T00:00:00",
+   "TICKER": "ZZIP",
+   "COMPANY": "Hazel Systems Inc",
+   "SECTOR": "Healthcare",
+   "DAYS_LEFT": -3,
+   "IS_AMC": 0,
+   "IS_BMO": 1,
+   "MARKET_CAP": 25684000000.0,
+   "P/E": 0.0,
+   "FWD_P/E": 0.0,
+   "EPS_SURPRISE": 0.0059,
+   "REVENUE_SURPRISE": 0.0141,
+   "FHS_GARCH_ANNZD_VOL": 0.2516,
+   "INDUSTRY": "Biotechnology",
+   "IS_S&P500": 0,
+   "VALUATION_SPREAD": 0.2808,
+   "VALUATION_SPREAD_PRIOR": null,
+   "VALUATION_STATE": null,
+   "E/P": 0.069516,
+   "ROIC": null,
+   "ROA": -0.0282,
+   "ROE": 0.3283,
+   "EPS_YOY_TTM": 0.3032,
+   "EPS_Q/Q": -0.2106,
+   "EPS": 1.56,
+   "FCF": null,
+   "QUICK_R": 0.5232,
+   "CURR_R": 2.7864,
+   "INST_OWN": 0.3226,
+   "INSIDER_OWN": null,
+   "AVG_VOLUME": 28860000.0,
+   "FHS_ANN_90_SCALED_VOL": 0.4233,
+   "Q_VOL": 0.5745,
+   "VOLATILITY_W": 0.415,
+   "VOLATILITY_M": 0.2553,
+   "VAR_H": -0.08712,
+   "C_VAR": -0.027534,
+   "FHS_VAR": -0.054628,
+   "FHS_CVAR": -0.102662,
+   "EP_QUANT": 24.0,
+   "EP_QUANT_CHANGE": 13.8,
+   "ROIC_QUANT": null,
+   "ROIC_QUANT_CHANGE": null,
+   "ROA_QUANT": 0.8,
+   "ROA_QUANT_CHANGE": 5.7,
+   "ROE_QUANT": 12.5,
+   "ROE_QUANT_CHANGE": 8.6,
+   "FHS_GARCH_ANNZD_VOL_QUANT": 53.6,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": 9.1,
+   "EPS_SURPRISE_QUANT": 32.4,
+   "EPS_SURPRISE_QUANT_CHANGE": 2.8,
+   "EPS_YOY_TTM_QUANT": 24.5,
+   "EPS_YOY_TTM_QUANT_CHANGE": 13.8,
+   "EPS_Q/Q_QUANT": 47.1,
+   "EPS_Q/Q_QUANT_CHANGE": 6.1,
+   "EPS_QUANT": 32.6,
+   "EPS_QUANT_CHANGE": -1.8,
+   "FCF_QUANT": null,
+   "FCF_QUANT_CHANGE": null,
+   "QUICK_R_QUANT": 62.4,
+   "QUICK_R_QUANT_CHANGE": 5.1,
+   "CURR_R_QUANT": 48.3,
+   "CURR_R_QUANT_CHANGE": 12.7,
+   "INST_OWN_QUANT": 61.3,
+   "INST_OWN_QUANT_CHANGE": -10.9,
+   "INSIDER_OWN_QUANT": null,
+   "INSIDER_OWN_QUANT_CHANGE": null,
+   "AVG_VOLUME_QUANT": 79.7,
+   "AVG_VOLUME_QUANT_CHANGE": -1.4,
+   "FHS_ANN_90_SCALED_VOL_QUANT": 26.9,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": 8.6,
+   "Q_VOL_QUANT": 27.8,
+   "Q_VOL_QUANT_CHANGE": 12.7,
+   "VOLATILITY_W_QUANT": 75.9,
+   "VOLATILITY_W_QUANT_CHANGE": 10.5,
+   "VOLATILITY_M_QUANT": 58.3,
+   "VOLATILITY_M_QUANT_CHANGE": 9.0,
+   "VAR_H_QUANT": 95.0,
+   "VAR_H_QUANT_CHANGE": 11.7,
+   "C_VAR_QUANT": 49.2,
+   "C_VAR_QUANT_CHANGE": 1.3,
+   "FHS_VAR_QUANT": 26.8,
+   "FHS_VAR_QUANT_CHANGE": -9.8,
+   "FHS_CVAR_QUANT": 7.7,
+   "FHS_CVAR_QUANT_CHANGE": -14.2,
+   "PRE_FHS_ANN_VOL_QUANT": 81.9,
+   "PRE_Q_VOL_ANNZD_QUANT": 88.6
+  },
+  {
+   "EARNINGS_DATE": "2026-09-16T00:00:00",
+   "TICKER": "ZZAL",
+   "COMPANY": "Iris Works Inc",
+   "SECTOR": "Technology",
+   "DAYS_LEFT": -4,
+   "IS_AMC": 1,
+   "IS_BMO": 0,
+   "MARKET_CAP": 89190000000.0,
+   "P/E": 0.0,
+   "FWD_P/E": 0.0,
+   "EPS_SURPRISE": 0.1536,
+   "REVENUE_SURPRISE": -0.0814,
+   "FHS_GARCH_ANNZD_VOL": 0.5892,
+   "INDUSTRY": "Semiconductors",
+   "IS_S&P500": 0,
+   "VALUATION_SPREAD": 0.1931,
+   "VALUATION_SPREAD_PRIOR": 0.0658,
+   "VALUATION_STATE": "normal",
+   "E/P": 0.059942,
+   "ROIC": -0.0382,
+   "ROA": 0.1844,
+   "ROE": -0.2218,
+   "EPS_YOY_TTM": 0.2394,
+   "EPS_Q/Q": -0.0908,
+   "EPS": 4.06,
+   "FCF": null,
+   "QUICK_R": 3.3351,
+   "CURR_R": 3.0428,
+   "INST_OWN": 0.2454,
+   "INSIDER_OWN": -0.1291,
+   "AVG_VOLUME": 19460000.0,
+   "FHS_ANN_90_SCALED_VOL": null,
+   "Q_VOL": 0.6607,
+   "VOLATILITY_W": 0.379,
+   "VOLATILITY_M": 0.6957,
+   "VAR_H": -0.047352,
+   "C_VAR": -0.051632,
+   "FHS_VAR": -0.035134,
+   "FHS_CVAR": -0.036497,
+   "EP_QUANT": 1.0,
+   "EP_QUANT_CHANGE": 10.7,
+   "ROIC_QUANT": 86.6,
+   "ROIC_QUANT_CHANGE": -9.6,
+   "ROA_QUANT": 28.3,
+   "ROA_QUANT_CHANGE": 14.3,
+   "ROE_QUANT": 88.7,
+   "ROE_QUANT_CHANGE": -7.8,
+   "FHS_GARCH_ANNZD_VOL_QUANT": 89.5,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": -4.8,
+   "EPS_SURPRISE_QUANT": 56.8,
+   "EPS_SURPRISE_QUANT_CHANGE": 13.5,
+   "EPS_YOY_TTM_QUANT": 13.1,
+   "EPS_YOY_TTM_QUANT_CHANGE": 11.3,
+   "EPS_Q/Q_QUANT": 92.9,
+   "EPS_Q/Q_QUANT_CHANGE": 9.5,
+   "EPS_QUANT": 71.7,
+   "EPS_QUANT_CHANGE": -12.7,
+   "FCF_QUANT": null,
+   "FCF_QUANT_CHANGE": null,
+   "QUICK_R_QUANT": 87.7,
+   "QUICK_R_QUANT_CHANGE": -2.9,
+   "CURR_R_QUANT": 64.5,
+   "CURR_R_QUANT_CHANGE": 14.1,
+   "INST_OWN_QUANT": 25.6,
+   "INST_OWN_QUANT_CHANGE": 13.2,
+   "INSIDER_OWN_QUANT": 40.7,
+   "INSIDER_OWN_QUANT_CHANGE": -2.3,
+   "AVG_VOLUME_QUANT": 16.1,
+   "AVG_VOLUME_QUANT_CHANGE": 8.8,
+   "FHS_ANN_90_SCALED_VOL_QUANT": null,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": null,
+   "Q_VOL_QUANT": 98.2,
+   "Q_VOL_QUANT_CHANGE": 7.7,
+   "VOLATILITY_W_QUANT": 91.9,
+   "VOLATILITY_W_QUANT_CHANGE": 7.7,
+   "VOLATILITY_M_QUANT": 11.3,
+   "VOLATILITY_M_QUANT_CHANGE": 7.8,
+   "VAR_H_QUANT": 82.0,
+   "VAR_H_QUANT_CHANGE": 1.1,
+   "C_VAR_QUANT": 31.2,
+   "C_VAR_QUANT_CHANGE": 9.3,
+   "FHS_VAR_QUANT": 1.3,
+   "FHS_VAR_QUANT_CHANGE": -5.3,
+   "FHS_CVAR_QUANT": 62.0,
+   "FHS_CVAR_QUANT_CHANGE": 0.4,
+   "PRE_FHS_ANN_VOL_QUANT": null,
+   "PRE_Q_VOL_ANNZD_QUANT": null
+  },
+  {
+   "EARNINGS_DATE": "2026-09-16T00:00:00",
+   "TICKER": "ZZIS",
+   "COMPANY": "Jasper Systems Inc",
+   "SECTOR": "Consumer Defensive",
+   "DAYS_LEFT": -4,
+   "IS_AMC": 0,
+   "IS_BMO": 1,
+   "MARKET_CAP": 51572000000.0,
+   "P/E": 0.0,
+   "FWD_P/E": 12.61,
+   "EPS_SURPRISE": 0.0953,
+   "REVENUE_SURPRISE": -0.1934,
+   "FHS_GARCH_ANNZD_VOL": 0.5789,
+   "INDUSTRY": "Tobacco",
+   "IS_S&P500": 0,
+   "VALUATION_SPREAD": -0.1131,
+   "VALUATION_SPREAD_PRIOR": 0.0367,
+   "VALUATION_STATE": "newly_cheap",
+   "E/P": 0.035956,
+   "ROIC": null,
+   "ROA": 0.0846,
+   "ROE": 0.3262,
+   "EPS_YOY_TTM": 0.1455,
+   "EPS_Q/Q": 0.2705,
+   "EPS": 4.17,
+   "FCF": null,
+   "QUICK_R": 1.8825,
+   "CURR_R": 0.23,
+   "INST_OWN": 0.0234,
+   "INSIDER_OWN": 0.123,
+   "AVG_VOLUME": 21010000.0,
+   "FHS_ANN_90_SCALED_VOL": 0.5405,
+   "Q_VOL": 0.3803,
+   "VOLATILITY_W": 0.3558,
+   "VOLATILITY_M": 0.428,
+   "VAR_H": -0.082032,
+   "C_VAR": -0.094827,
+   "FHS_VAR": -0.045832,
+   "FHS_CVAR": -0.103174,
+   "EP_QUANT": 95.5,
+   "EP_QUANT_CHANGE": -6.6,
+   "ROIC_QUANT": null,
+   "ROIC_QUANT_CHANGE": null,
+   "ROA_QUANT": 74.5,
+   "ROA_QUANT_CHANGE": 13.2,
+   "ROE_QUANT": 62.2,
+   "ROE_QUANT_CHANGE": 7.4,
+   "FHS_GARCH_ANNZD_VOL_QUANT": 17.7,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": 3.1,
+   "EPS_SURPRISE_QUANT": 88.1,
+   "EPS_SURPRISE_QUANT_CHANGE": -5.7,
+   "EPS_YOY_TTM_QUANT": 47.9,
+   "EPS_YOY_TTM_QUANT_CHANGE": 1.2,
+   "EPS_Q/Q_QUANT": 95.2,
+   "EPS_Q/Q_QUANT_CHANGE": 14.7,
+   "EPS_QUANT": 93.9,
+   "EPS_QUANT_CHANGE": 3.9,
+   "FCF_QUANT": null,
+   "FCF_QUANT_CHANGE": null,
+   "QUICK_R_QUANT": 58.1,
+   "QUICK_R_QUANT_CHANGE": 6.5,
+   "CURR_R_QUANT": 29.5,
+   "CURR_R_QUANT_CHANGE": -4.1,
+   "INST_OWN_QUANT": 18.4,
+   "INST_OWN_QUANT_CHANGE": -1.0,
+   "INSIDER_OWN_QUANT": 47.6,
+   "INSIDER_OWN_QUANT_CHANGE": 5.6,
+   "AVG_VOLUME_QUANT": 22.6,
+   "AVG_VOLUME_QUANT_CHANGE": -13.8,
+   "FHS_ANN_90_SCALED_VOL_QUANT": 29.8,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": 12.5,
+   "Q_VOL_QUANT": 85.6,
+   "Q_VOL_QUANT_CHANGE": -11.2,
+   "VOLATILITY_W_QUANT": 23.6,
+   "VOLATILITY_W_QUANT_CHANGE": -3.9,
+   "VOLATILITY_M_QUANT": 36.7,
+   "VOLATILITY_M_QUANT_CHANGE": 12.4,
+   "VAR_H_QUANT": 32.7,
+   "VAR_H_QUANT_CHANGE": 8.2,
+   "C_VAR_QUANT": 12.0,
+   "C_VAR_QUANT_CHANGE": 1.1,
+   "FHS_VAR_QUANT": 27.3,
+   "FHS_VAR_QUANT_CHANGE": 13.6,
+   "FHS_CVAR_QUANT": 77.8,
+   "FHS_CVAR_QUANT_CHANGE": 11.6,
+   "PRE_FHS_ANN_VOL_QUANT": null,
+   "PRE_Q_VOL_ANNZD_QUANT": null
+  },
+  {
+   "EARNINGS_DATE": "2026-09-16T00:00:00",
+   "TICKER": "ZZLE",
+   "COMPANY": "Kestrel Works Inc",
+   "SECTOR": "Consumer Cyclical",
+   "DAYS_LEFT": -4,
+   "IS_AMC": 1,
+   "IS_BMO": 0,
+   "MARKET_CAP": 9629000000.0,
+   "P/E": 59.24,
+   "FWD_P/E": 11.25,
+   "EPS_SURPRISE": -0.1588,
+   "REVENUE_SURPRISE": -0.1551,
+   "FHS_GARCH_ANNZD_VOL": 0.3411,
+   "INDUSTRY": "Residential Construction",
+   "IS_S&P500": 1,
+   "VALUATION_SPREAD": 0.2512,
+   "VALUATION_SPREAD_PRIOR": -0.1969,
+   "VALUATION_STATE": "normal",
+   "E/P": 0.072461,
+   "ROIC": 0.1956,
+   "ROA": -0.1289,
+   "ROE": 0.0489,
+   "EPS_YOY_TTM": 0.223,
+   "EPS_Q/Q": -0.1182,
+   "EPS": 0.93,
+   "FCF": 7070000000.0,
+   "QUICK_R": 0.3153,
+   "CURR_R": 2.7083,
+   "INST_OWN": 0.2264,
+   "INSIDER_OWN": -0.0708,
+   "AVG_VOLUME": 14100000.0,
+   "FHS_ANN_90_SCALED_VOL": 0.4274,
+   "Q_VOL": 0.5548,
+   "VOLATILITY_W": 0.3957,
+   "VOLATILITY_M": 0.6856,
+   "VAR_H": -0.116058,
+   "C_VAR": -0.091421,
+   "FHS_VAR": -0.062458,
+   "FHS_CVAR": -0.094854,
+   "EP_QUANT": 21.5,
+   "EP_QUANT_CHANGE": 11.8,
+   "ROIC_QUANT": 80.9,
+   "ROIC_QUANT_CHANGE": 7.5,
+   "ROA_QUANT": 80.7,
+   "ROA_QUANT_CHANGE": 9.4,
+   "ROE_QUANT": 99.0,
+   "ROE_QUANT_CHANGE": -4.4,
+   "FHS_GARCH_ANNZD_VOL_QUANT": 23.0,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": 8.8,
+   "EPS_SURPRISE_QUANT": 70.6,
+   "EPS_SURPRISE_QUANT_CHANGE": -4.1,
+   "EPS_YOY_TTM_QUANT": 69.1,
+   "EPS_YOY_TTM_QUANT_CHANGE": -5.1,
+   "EPS_Q/Q_QUANT": 87.0,
+   "EPS_Q/Q_QUANT_CHANGE": -0.2,
+   "EPS_QUANT": 33.9,
+   "EPS_QUANT_CHANGE": -4.8,
+   "FCF_QUANT": 76.4,
+   "FCF_QUANT_CHANGE": -12.7,
+   "QUICK_R_QUANT": 19.9,
+   "QUICK_R_QUANT_CHANGE": 1.5,
+   "CURR_R_QUANT": 27.7,
+   "CURR_R_QUANT_CHANGE": 8.1,
+   "INST_OWN_QUANT": 90.9,
+   "INST_OWN_QUANT_CHANGE": 0.8,
+   "INSIDER_OWN_QUANT": 19.5,
+   "INSIDER_OWN_QUANT_CHANGE": -13.6,
+   "AVG_VOLUME_QUANT": 11.1,
+   "AVG_VOLUME_QUANT_CHANGE": -11.4,
+   "FHS_ANN_90_SCALED_VOL_QUANT": 49.5,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": 0.3,
+   "Q_VOL_QUANT": 92.1,
+   "Q_VOL_QUANT_CHANGE": 2.5,
+   "VOLATILITY_W_QUANT": 57.4,
+   "VOLATILITY_W_QUANT_CHANGE": -6.2,
+   "VOLATILITY_M_QUANT": 6.3,
+   "VOLATILITY_M_QUANT_CHANGE": -8.3,
+   "VAR_H_QUANT": 27.4,
+   "VAR_H_QUANT_CHANGE": 14.5,
+   "C_VAR_QUANT": 25.4,
+   "C_VAR_QUANT_CHANGE": -13.8,
+   "FHS_VAR_QUANT": 97.9,
+   "FHS_VAR_QUANT_CHANGE": -6.6,
+   "FHS_CVAR_QUANT": 57.1,
+   "FHS_CVAR_QUANT_CHANGE": -6.9,
+   "PRE_FHS_ANN_VOL_QUANT": null,
+   "PRE_Q_VOL_ANNZD_QUANT": null
+  },
+  {
+   "EARNINGS_DATE": "2026-09-16T00:00:00",
+   "TICKER": "ZZLU",
+   "COMPANY": "Linden Systems Inc",
+   "SECTOR": "Consumer Cyclical",
+   "DAYS_LEFT": -4,
+   "IS_AMC": 0,
+   "IS_BMO": 1,
+   "MARKET_CAP": 21188000000.0,
+   "P/E": 0.0,
+   "FWD_P/E": 39.34,
+   "EPS_SURPRISE": -0.1253,
+   "REVENUE_SURPRISE": -0.2114,
+   "FHS_GARCH_ANNZD_VOL": 0.5872,
+   "INDUSTRY": "Luxury Goods",
+   "IS_S&P500": 0,
+   "VALUATION_SPREAD": 0.0026,
+   "VALUATION_SPREAD_PRIOR": 0.297,
+   "VALUATION_STATE": "exiting",
+   "E/P": 0.055072,
+   "ROIC": 0.1591,
+   "ROA": -0.0236,
+   "ROE": 0.1171,
+   "EPS_YOY_TTM": 0.1309,
+   "EPS_Q/Q": -0.0725,
+   "EPS": 3.36,
+   "FCF": null,
+   "QUICK_R": 1.094,
+   "CURR_R": 2.203,
+   "INST_OWN": 0.3411,
+   "INSIDER_OWN": null,
+   "AVG_VOLUME": 2240000.0,
+   "FHS_ANN_90_SCALED_VOL": 0.2706,
+   "Q_VOL": 0.1674,
+   "VOLATILITY_W": 0.6001,
+   "VOLATILITY_M": 0.6026,
+   "VAR_H": -0.117735,
+   "C_VAR": -0.050662,
+   "FHS_VAR": -0.031208,
+   "FHS_CVAR": -0.069716,
+   "EP_QUANT": 66.3,
+   "EP_QUANT_CHANGE": -4.8,
+   "ROIC_QUANT": 91.3,
+   "ROIC_QUANT_CHANGE": 6.3,
+   "ROA_QUANT": 73.7,
+   "ROA_QUANT_CHANGE": 2.1,
+   "ROE_QUANT": 64.2,
+   "ROE_QUANT_CHANGE": -6.7,
+   "FHS_GARCH_ANNZD_VOL_QUANT": 10.5,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": -5.3,
+   "EPS_SURPRISE_QUANT": 82.8,
+   "EPS_SURPRISE_QUANT_CHANGE": 7.6,
+   "EPS_YOY_TTM_QUANT": 82.3,
+   "EPS_YOY_TTM_QUANT_CHANGE": 7.5,
+   "EPS_Q/Q_QUANT": 36.7,
+   "EPS_Q/Q_QUANT_CHANGE": -2.5,
+   "EPS_QUANT": 20.0,
+   "EPS_QUANT_CHANGE": 1.8,
+   "FCF_QUANT": null,
+   "FCF_QUANT_CHANGE": null,
+   "QUICK_R_QUANT": 21.0,
+   "QUICK_R_QUANT_CHANGE": -8.0,
+   "CURR_R_QUANT": 10.2,
+   "CURR_R_QUANT_CHANGE": -0.6,
+   "INST_OWN_QUANT": 42.5,
+   "INST_OWN_QUANT_CHANGE": 15.0,
+   "INSIDER_OWN_QUANT": null,
+   "INSIDER_OWN_QUANT_CHANGE": null,
+   "AVG_VOLUME_QUANT": 23.6,
+   "AVG_VOLUME_QUANT_CHANGE": -9.0,
+   "FHS_ANN_90_SCALED_VOL_QUANT": 70.6,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": -12.9,
+   "Q_VOL_QUANT": 14.0,
+   "Q_VOL_QUANT_CHANGE": 9.5,
+   "VOLATILITY_W_QUANT": 67.8,
+   "VOLATILITY_W_QUANT_CHANGE": -2.8,
+   "VOLATILITY_M_QUANT": 88.2,
+   "VOLATILITY_M_QUANT_CHANGE": -4.7,
+   "VAR_H_QUANT": 56.6,
+   "VAR_H_QUANT_CHANGE": -5.7,
+   "C_VAR_QUANT": 7.8,
+   "C_VAR_QUANT_CHANGE": 4.7,
+   "FHS_VAR_QUANT": 9.7,
+   "FHS_VAR_QUANT_CHANGE": 11.3,
+   "FHS_CVAR_QUANT": 81.8,
+   "FHS_CVAR_QUANT_CHANGE": -15.0,
+   "PRE_FHS_ANN_VOL_QUANT": null,
+   "PRE_Q_VOL_ANNZD_QUANT": null
+  },
+  {
+   "EARNINGS_DATE": "2026-09-15T00:00:00",
+   "TICKER": "ZZCO",
+   "COMPANY": "Maple Works Inc",
+   "SECTOR": "Consumer Defensive",
+   "DAYS_LEFT": -5,
+   "IS_AMC": 0,
+   "IS_BMO": 1,
+   "MARKET_CAP": 68927000000.0,
+   "P/E": 0.0,
+   "FWD_P/E": 0.0,
+   "EPS_SURPRISE": null,
+   "REVENUE_SURPRISE": null,
+   "FHS_GARCH_ANNZD_VOL": 0.395,
+   "INDUSTRY": "Education & Training Services",
+   "IS_S&P500": 0,
+   "VALUATION_SPREAD": -0.1409,
+   "VALUATION_SPREAD_PRIOR": null,
+   "VALUATION_STATE": null,
+   "E/P": 0.05841,
+   "ROIC": null,
+   "ROA": 0.0063,
+   "ROE": null,
+   "EPS_YOY_TTM": -0.2251,
+   "EPS_Q/Q": -0.1061,
+   "EPS": 5.55,
+   "FCF": null,
+   "QUICK_R": 1.7311,
+   "CURR_R": 0.7703,
+   "INST_OWN": -0.0457,
+   "INSIDER_OWN": 0.1407,
+   "AVG_VOLUME": 2280000.0,
+   "FHS_ANN_90_SCALED_VOL": 0.253,
+   "Q_VOL": 0.3962,
+   "VOLATILITY_W": 0.228,
+   "VOLATILITY_M": 0.4465,
+   "VAR_H": -0.068654,
+   "C_VAR": -0.034708,
+   "FHS_VAR": -0.081697,
+   "FHS_CVAR": -0.038169,
+   "EP_QUANT": 18.3,
+   "EP_QUANT_CHANGE": 14.3,
+   "ROIC_QUANT": null,
+   "ROIC_QUANT_CHANGE": null,
+   "ROA_QUANT": 95.1,
+   "ROA_QUANT_CHANGE": 3.2,
+   "ROE_QUANT": null,
+   "ROE_QUANT_CHANGE": null,
+   "FHS_GARCH_ANNZD_VOL_QUANT": 38.7,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": -10.8,
+   "EPS_SURPRISE_QUANT": null,
+   "EPS_SURPRISE_QUANT_CHANGE": null,
+   "EPS_YOY_TTM_QUANT": 78.5,
+   "EPS_YOY_TTM_QUANT_CHANGE": 3.4,
+   "EPS_Q/Q_QUANT": 49.8,
+   "EPS_Q/Q_QUANT_CHANGE": -7.3,
+   "EPS_QUANT": 69.6,
+   "EPS_QUANT_CHANGE": 6.9,
+   "FCF_QUANT": null,
+   "FCF_QUANT_CHANGE": null,
+   "QUICK_R_QUANT": 91.2,
+   "QUICK_R_QUANT_CHANGE": -5.4,
+   "CURR_R_QUANT": 80.3,
+   "CURR_R_QUANT_CHANGE": 1.7,
+   "INST_OWN_QUANT": 37.0,
+   "INST_OWN_QUANT_CHANGE": -7.1,
+   "INSIDER_OWN_QUANT": 27.1,
+   "INSIDER_OWN_QUANT_CHANGE": -14.3,
+   "AVG_VOLUME_QUANT": 47.7,
+   "AVG_VOLUME_QUANT_CHANGE": 10.5,
+   "FHS_ANN_90_SCALED_VOL_QUANT": 77.4,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": 5.5,
+   "Q_VOL_QUANT": 73.2,
+   "Q_VOL_QUANT_CHANGE": -10.8,
+   "VOLATILITY_W_QUANT": 94.7,
+   "VOLATILITY_W_QUANT_CHANGE": 12.9,
+   "VOLATILITY_M_QUANT": 61.7,
+   "VOLATILITY_M_QUANT_CHANGE": 3.5,
+   "VAR_H_QUANT": 22.8,
+   "VAR_H_QUANT_CHANGE": 14.5,
+   "C_VAR_QUANT": 68.5,
+   "C_VAR_QUANT_CHANGE": 6.9,
+   "FHS_VAR_QUANT": 74.9,
+   "FHS_VAR_QUANT_CHANGE": -11.6,
+   "FHS_CVAR_QUANT": 18.9,
+   "FHS_CVAR_QUANT_CHANGE": -3.9,
+   "PRE_FHS_ANN_VOL_QUANT": null,
+   "PRE_Q_VOL_ANNZD_QUANT": null
+  },
+  {
+   "EARNINGS_DATE": "2026-09-15T00:00:00",
+   "TICKER": "ZZEP",
+   "COMPANY": "Nimbus Systems Inc",
+   "SECTOR": "Energy",
+   "DAYS_LEFT": -5,
+   "IS_AMC": 1,
+   "IS_BMO": 0,
+   "MARKET_CAP": 33392000000.0,
+   "P/E": 0.0,
+   "FWD_P/E": 21.27,
+   "EPS_SURPRISE": -0.0871,
+   "REVENUE_SURPRISE": 0.0415,
+   "FHS_GARCH_ANNZD_VOL": 0.2684,
+   "INDUSTRY": "Oil & Gas E&P",
+   "IS_S&P500": 0,
+   "VALUATION_SPREAD": 0.197,
+   "VALUATION_SPREAD_PRIOR": 0.0379,
+   "VALUATION_STATE": "normal",
+   "E/P": 0.079701,
+   "ROIC": 0.2925,
+   "ROA": 0.1398,
+   "ROE": 0.0182,
+   "EPS_YOY_TTM": -0.0681,
+   "EPS_Q/Q": -0.0643,
+   "EPS": 2.71,
+   "FCF": null,
+   "QUICK_R": 3.6495,
+   "CURR_R": 1.323,
+   "INST_OWN": 0.0723,
+   "INSIDER_OWN": -0.1877,
+   "AVG_VOLUME": 20320000.0,
+   "FHS_ANN_90_SCALED_VOL": null,
+   "Q_VOL": 0.6688,
+   "VOLATILITY_W": 0.5952,
+   "VOLATILITY_M": 0.2665,
+   "VAR_H": -0.102683,
+   "C_VAR": -0.107905,
+   "FHS_VAR": -0.036572,
+   "FHS_CVAR": -0.040561,
+   "EP_QUANT": 49.3,
+   "EP_QUANT_CHANGE": 6.4,
+   "ROIC_QUANT": 87.9,
+   "ROIC_QUANT_CHANGE": 1.0,
+   "ROA_QUANT": 17.0,
+   "ROA_QUANT_CHANGE": 8.0,
+   "ROE_QUANT": 28.0,
+   "ROE_QUANT_CHANGE": 10.3,
+   "FHS_GARCH_ANNZD_VOL_QUANT": 83.1,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": 3.3,
+   "EPS_SURPRISE_QUANT": 70.6,
+   "EPS_SURPRISE_QUANT_CHANGE": 3.9,
+   "EPS_YOY_TTM_QUANT": 85.2,
+   "EPS_YOY_TTM_QUANT_CHANGE": -13.2,
+   "EPS_Q/Q_QUANT": 54.1,
+   "EPS_Q/Q_QUANT_CHANGE": -5.0,
+   "EPS_QUANT": 57.8,
+   "EPS_QUANT_CHANGE": -1.6,
+   "FCF_QUANT": null,
+   "FCF_QUANT_CHANGE": null,
+   "QUICK_R_QUANT": 83.0,
+   "QUICK_R_QUANT_CHANGE": 1.3,
+   "CURR_R_QUANT": 12.2,
+   "CURR_R_QUANT_CHANGE": -2.2,
+   "INST_OWN_QUANT": 65.1,
+   "INST_OWN_QUANT_CHANGE": -3.9,
+   "INSIDER_OWN_QUANT": 43.8,
+   "INSIDER_OWN_QUANT_CHANGE": 3.8,
+   "AVG_VOLUME_QUANT": 42.8,
+   "AVG_VOLUME_QUANT_CHANGE": 13.6,
+   "FHS_ANN_90_SCALED_VOL_QUANT": null,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": null,
+   "Q_VOL_QUANT": 94.8,
+   "Q_VOL_QUANT_CHANGE": 12.5,
+   "VOLATILITY_W_QUANT": 22.7,
+   "VOLATILITY_W_QUANT_CHANGE": -4.8,
+   "VOLATILITY_M_QUANT": 55.6,
+   "VOLATILITY_M_QUANT_CHANGE": 14.3,
+   "VAR_H_QUANT": 89.5,
+   "VAR_H_QUANT_CHANGE": 8.8,
+   "C_VAR_QUANT": 11.4,
+   "C_VAR_QUANT_CHANGE": 4.9,
+   "FHS_VAR_QUANT": 67.2,
+   "FHS_VAR_QUANT_CHANGE": -4.6,
+   "FHS_CVAR_QUANT": 66.8,
+   "FHS_CVAR_QUANT_CHANGE": 12.6,
+   "PRE_FHS_ANN_VOL_QUANT": null,
+   "PRE_Q_VOL_ANNZD_QUANT": 42.0
+  },
+  {
+   "EARNINGS_DATE": "2026-09-15T00:00:00",
+   "TICKER": "ZZFP",
+   "COMPANY": "Opal Works Inc",
+   "SECTOR": "Industrials",
+   "DAYS_LEFT": -5,
+   "IS_AMC": 0,
+   "IS_BMO": 1,
+   "MARKET_CAP": 74160000000.0,
+   "P/E": 32.29,
+   "FWD_P/E": 56.86,
+   "EPS_SURPRISE": -0.1333,
+   "REVENUE_SURPRISE": 0.186,
+   "FHS_GARCH_ANNZD_VOL": null,
+   "INDUSTRY": "Electrical Equipment & Parts",
+   "IS_S&P500": 0,
+   "VALUATION_SPREAD": null,
+   "VALUATION_SPREAD_PRIOR": null,
+   "VALUATION_STATE": null,
+   "E/P": 0.042458,
+   "ROIC": -0.1089,
+   "ROA": null,
+   "ROE": null,
+   "EPS_YOY_TTM": null,
+   "EPS_Q/Q": 0.0861,
+   "EPS": 8.35,
+   "FCF": null,
+   "QUICK_R": 1.1413,
+   "CURR_R": 0.8395,
+   "INST_OWN": -0.208,
+   "INSIDER_OWN": -0.0994,
+   "AVG_VOLUME": 36490000.0,
+   "FHS_ANN_90_SCALED_VOL": null,
+   "Q_VOL": 0.6737,
+   "VOLATILITY_W": 0.6669,
+   "VOLATILITY_M": 0.4174,
+   "VAR_H": -0.09447,
+   "C_VAR": -0.094457,
+   "FHS_VAR": null,
+   "FHS_CVAR": null,
+   "EP_QUANT": 87.3,
+   "EP_QUANT_CHANGE": 9.6,
+   "ROIC_QUANT": 61.0,
+   "ROIC_QUANT_CHANGE": null,
+   "ROA_QUANT": null,
+   "ROA_QUANT_CHANGE": null,
+   "ROE_QUANT": null,
+   "ROE_QUANT_CHANGE": null,
+   "FHS_GARCH_ANNZD_VOL_QUANT": null,
+   "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": null,
+   "EPS_SURPRISE_QUANT": 60.3,
+   "EPS_SURPRISE_QUANT_CHANGE": 13.8,
+   "EPS_YOY_TTM_QUANT": null,
+   "EPS_YOY_TTM_QUANT_CHANGE": null,
+   "EPS_Q/Q_QUANT": 76.2,
+   "EPS_Q/Q_QUANT_CHANGE": 7.9,
+   "EPS_QUANT": 75.6,
+   "EPS_QUANT_CHANGE": 7.5,
+   "FCF_QUANT": null,
+   "FCF_QUANT_CHANGE": null,
+   "QUICK_R_QUANT": 73.2,
+   "QUICK_R_QUANT_CHANGE": -11.9,
+   "CURR_R_QUANT": 54.0,
+   "CURR_R_QUANT_CHANGE": -3.1,
+   "INST_OWN_QUANT": 15.9,
+   "INST_OWN_QUANT_CHANGE": -14.4,
+   "INSIDER_OWN_QUANT": 19.9,
+   "INSIDER_OWN_QUANT_CHANGE": 6.2,
+   "AVG_VOLUME_QUANT": 95.7,
+   "AVG_VOLUME_QUANT_CHANGE": 5.9,
+   "FHS_ANN_90_SCALED_VOL_QUANT": null,
+   "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": null,
+   "Q_VOL_QUANT": 24.3,
+   "Q_VOL_QUANT_CHANGE": -3.9,
+   "VOLATILITY_W_QUANT": 57.6,
+   "VOLATILITY_W_QUANT_CHANGE": 10.6,
+   "VOLATILITY_M_QUANT": 81.2,
+   "VOLATILITY_M_QUANT_CHANGE": 13.1,
+   "VAR_H_QUANT": 17.9,
+   "VAR_H_QUANT_CHANGE": 13.3,
+   "C_VAR_QUANT": 78.7,
+   "C_VAR_QUANT_CHANGE": -4.1,
+   "FHS_VAR_QUANT": null,
+   "FHS_VAR_QUANT_CHANGE": null,
+   "FHS_CVAR_QUANT": null,
+   "FHS_CVAR_QUANT_CHANGE": null,
+   "PRE_FHS_ANN_VOL_QUANT": null,
+   "PRE_Q_VOL_ANNZD_QUANT": null
+  }
+ ],
+ "next_cursor": null,
+ "count": 8,
+ "price_as_of": null,
+ "layers_included": [
+  "bronze"
+ ],
+ "frame": "post",
+ "window": {
+  "start": "2026-09-01",
+  "end": "2026-09-21",
+  "period": "month_to_date"
+ },
+ "sort": "desc",
+ "fields": "view:calendar_quant",
+ "fields_returned": 87,
+ "metrics": {
+  "EP_QUANT": {
+   "label": "Earnings yield industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "E/P": {
+   "label": "Earnings Yield (E/P)",
+   "higher_is_better": true,
+   "format": "ratio",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EP_QUANT_CHANGE": {
+   "label": "Earnings yield percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "ROIC_QUANT": {
+   "label": "Return on invested capital industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "ROIC": {
+   "label": "Roic",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "ROIC_QUANT_CHANGE": {
+   "label": "Return on invested capital percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "ROA_QUANT": {
+   "label": "Return on assets industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "ROA": {
+   "label": "Roa",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "ROA_QUANT_CHANGE": {
+   "label": "Return on assets percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "ROE_QUANT": {
+   "label": "Return on equity industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "ROE": {
+   "label": "Roe",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "ROE_QUANT_CHANGE": {
+   "label": "Return on equity percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "FHS_GARCH_ANNZD_VOL_QUANT": {
+   "label": "FHS-GARCH annualized volatility industry percentile",
+   "higher_is_better": false,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_GARCH_ANNZD_VOL": {
+   "label": "GARCH Annualized Vol",
+   "higher_is_better": false,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": {
+   "label": "FHS-GARCH annualized volatility percentile change",
+   "higher_is_better": false,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "EPS_SURPRISE_QUANT": {
+   "label": "EPS surprise industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS_SURPRISE": {
+   "label": "Eps Surprise",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS_SURPRISE_QUANT_CHANGE": {
+   "label": "EPS surprise percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "EPS_YOY_TTM_QUANT": {
+   "label": "EPS YoY industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS_YOY_TTM": {
+   "label": "Eps Yoy Ttm",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS_YOY_TTM_QUANT_CHANGE": {
+   "label": "EPS YoY percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "EPS_Q/Q_QUANT": {
+   "label": "EPS quarter-over-quarter industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS_Q/Q": {
+   "label": "EPS Growth YoY (latest Q)",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS_Q/Q_QUANT_CHANGE": {
+   "label": "EPS quarter-over-quarter percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "EPS_QUANT": {
+   "label": "EPS industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS": {
+   "label": "Eps",
+   "higher_is_better": true,
+   "format": "currency_per_share",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "EPS_QUANT_CHANGE": {
+   "label": "EPS percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "FCF_QUANT": {
+   "label": "Free cash flow industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FCF": {
+   "label": "Fcf",
+   "higher_is_better": true,
+   "format": "currency",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FCF_QUANT_CHANGE": {
+   "label": "Free cash flow percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "QUICK_R_QUANT": {
+   "label": "Quick ratio industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "QUICK_R": {
+   "label": "Quick R",
+   "higher_is_better": true,
+   "format": "ratio",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "QUICK_R_QUANT_CHANGE": {
+   "label": "Quick ratio percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "CURR_R_QUANT": {
+   "label": "Current ratio industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "CURR_R": {
+   "label": "Curr R",
+   "higher_is_better": true,
+   "format": "ratio",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "CURR_R_QUANT_CHANGE": {
+   "label": "Current ratio percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "INST_OWN_QUANT": {
+   "label": "Institutional ownership industry percentile",
+   "higher_is_better": null,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "INST_OWN": {
+   "label": "Inst Own",
+   "higher_is_better": null,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "INST_OWN_QUANT_CHANGE": {
+   "label": "Institutional ownership percentile change",
+   "higher_is_better": null,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "INSIDER_OWN_QUANT": {
+   "label": "Insider ownership industry percentile",
+   "higher_is_better": null,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "INSIDER_OWN": {
+   "label": "Insider Own",
+   "higher_is_better": null,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "INSIDER_OWN_QUANT_CHANGE": {
+   "label": "Insider ownership percentile change",
+   "higher_is_better": null,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "AVG_VOLUME_QUANT": {
+   "label": "Average volume industry percentile",
+   "higher_is_better": null,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "AVG_VOLUME": {
+   "label": "Avg Volume",
+   "higher_is_better": null,
+   "format": "count",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "AVG_VOLUME_QUANT_CHANGE": {
+   "label": "Average volume percentile change",
+   "higher_is_better": null,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "FHS_ANN_90_SCALED_VOL_QUANT": {
+   "label": "FHS 90d-scaled annualized vol industry percentile",
+   "higher_is_better": false,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_ANN_90_SCALED_VOL": {
+   "label": "Fhs Ann 90 Scaled Vol",
+   "higher_is_better": false,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": {
+   "label": "FHS 90d-scaled annualized vol percentile change",
+   "higher_is_better": false,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "Q_VOL_QUANT": {
+   "label": "Quarterly volatility industry percentile",
+   "higher_is_better": false,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "Q_VOL": {
+   "label": "Quarterly Volatility",
+   "higher_is_better": false,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "Q_VOL_QUANT_CHANGE": {
+   "label": "Quarterly volatility percentile change",
+   "higher_is_better": false,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "VOLATILITY_W_QUANT": {
+   "label": "Weekly volatility industry percentile",
+   "higher_is_better": false,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VOLATILITY_W": {
+   "label": "Volatility W",
+   "higher_is_better": false,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VOLATILITY_W_QUANT_CHANGE": {
+   "label": "Weekly volatility percentile change",
+   "higher_is_better": false,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "VOLATILITY_M_QUANT": {
+   "label": "Monthly volatility industry percentile",
+   "higher_is_better": false,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VOLATILITY_M": {
+   "label": "Volatility M",
+   "higher_is_better": false,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VOLATILITY_M_QUANT_CHANGE": {
+   "label": "Monthly volatility percentile change",
+   "higher_is_better": false,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "VAR_H_QUANT": {
+   "label": "Historical VaR industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VAR_H": {
+   "label": "VaR (Historical)",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VAR_H_QUANT_CHANGE": {
+   "label": "Historical VaR percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "C_VAR_QUANT": {
+   "label": "Conditional VaR industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "C_VAR": {
+   "label": "Conditional VaR",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "C_VAR_QUANT_CHANGE": {
+   "label": "Conditional VaR percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "FHS_VAR_QUANT": {
+   "label": "FHS VaR industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_VAR": {
+   "label": "VaR (FHS)",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_VAR_QUANT_CHANGE": {
+   "label": "FHS VaR percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "FHS_CVAR_QUANT": {
+   "label": "FHS CVaR industry percentile",
+   "higher_is_better": true,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_CVAR": {
+   "label": "Conditional VaR (FHS)",
+   "higher_is_better": true,
+   "format": "percent_fraction",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "FHS_CVAR_QUANT_CHANGE": {
+   "label": "FHS CVaR percentile change",
+   "higher_is_better": true,
+   "format": "percentile_points_signed",
+   "scale": "linear",
+   "color_clip_pct": [
+    5,
+    95
+   ]
+  },
+  "PRE_FHS_ANN_VOL_QUANT": {
+   "label": "FHS annualized vol pre-event industry percentile",
+   "higher_is_better": false,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "PRE_Q_VOL_ANNZD_QUANT": {
+   "label": "Quarterly annualized vol pre-event industry percentile",
+   "higher_is_better": false,
+   "format": "percentile_points",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VALUATION_SPREAD": {
+   "label": "Valuation Spread",
+   "higher_is_better": false,
+   "format": "ratio",
+   "scale": "linear",
+   "color_clip_pct": null
+  },
+  "VALUATION_SPREAD_PRIOR": {
+   "label": "Valuation Spread (Prior Quarter)",
+   "higher_is_better": false,
+   "format": "ratio",
+   "scale": "linear",
+   "color_clip_pct": null
+  }
+ },
+ "facts": {
+  "as_of": "2026-09-20",
+  "rows": {
+   "ZZIP|2026-09-17": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   },
+   "ZZAL|2026-09-16": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   },
+   "ZZIS|2026-09-16": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   },
+   "ZZLE|2026-09-16": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   },
+   "ZZLU|2026-09-16": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   },
+   "ZZCO|2026-09-15": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   },
+   "ZZEP|2026-09-15": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   },
+   "ZZFP|2026-09-15": {
+    "reported": true,
+    "values_quarter": "2026/Q3"
+   }
+  },
+  "week_cuts": {
+   "2026-09-14": {
+    "complete": false,
+    "measures": {
+     "EP_QUANT": {
+      "top_10": 95.5,
+      "n": 8
+     },
+     "E/P": {
+      "top_10": 0.079701,
+      "n": 8
+     },
+     "EP_QUANT_CHANGE": {
+      "top_10": 14.3,
+      "n": 8
+     },
+     "ROIC_QUANT": {
+      "top_10": 91.3,
+      "n": 5
+     },
+     "ROIC": {
+      "top_10": 0.2925,
+      "n": 5
+     },
+     "ROIC_QUANT_CHANGE": {
+      "top_10": 7.5,
+      "n": 4
+     },
+     "ROA_QUANT": {
+      "top_10": 95.1,
+      "n": 7
+     },
+     "ROA": {
+      "top_10": 0.1844,
+      "n": 7
+     },
+     "ROA_QUANT_CHANGE": {
+      "top_10": 14.3,
+      "n": 7
+     },
+     "ROE_QUANT": {
+      "top_10": 99.0,
+      "n": 6
+     },
+     "ROE": {
+      "top_10": 0.3283,
+      "n": 6
+     },
+     "ROE_QUANT_CHANGE": {
+      "top_10": 10.3,
+      "n": 6
+     },
+     "FHS_GARCH_ANNZD_VOL_QUANT": {
+      "top_10": 10.5,
+      "n": 7
+     },
+     "FHS_GARCH_ANNZD_VOL": {
+      "top_10": 0.2516,
+      "n": 7
+     },
+     "FHS_GARCH_ANNZD_VOL_QUANT_CHANGE": {
+      "top_10": -10.8,
+      "n": 7
+     },
+     "EPS_SURPRISE_QUANT": {
+      "top_10": 88.1,
+      "n": 7
+     },
+     "EPS_SURPRISE": {
+      "top_10": 0.1536,
+      "n": 7
+     },
+     "EPS_SURPRISE_QUANT_CHANGE": {
+      "top_10": 13.8,
+      "n": 7
+     },
+     "EPS_YOY_TTM_QUANT": {
+      "top_10": 85.2,
+      "n": 7
+     },
+     "EPS_YOY_TTM": {
+      "top_10": 0.3032,
+      "n": 7
+     },
+     "EPS_YOY_TTM_QUANT_CHANGE": {
+      "top_10": 13.8,
+      "n": 7
+     },
+     "EPS_Q/Q_QUANT": {
+      "top_10": 95.2,
+      "n": 8
+     },
+     "EPS_Q/Q": {
+      "top_10": 0.2705,
+      "n": 8
+     },
+     "EPS_Q/Q_QUANT_CHANGE": {
+      "top_10": 14.7,
+      "n": 8
+     },
+     "EPS_QUANT": {
+      "top_10": 93.9,
+      "n": 8
+     },
+     "EPS": {
+      "top_10": 8.35,
+      "n": 8
+     },
+     "EPS_QUANT_CHANGE": {
+      "top_10": 7.5,
+      "n": 8
+     },
+     "FCF_QUANT": {
+      "top_10": 76.4,
+      "n": 1
+     },
+     "FCF": {
+      "top_10": 7070000000.0,
+      "n": 1
+     },
+     "FCF_QUANT_CHANGE": {
+      "top_10": -12.7,
+      "n": 1
+     },
+     "QUICK_R_QUANT": {
+      "top_10": 91.2,
+      "n": 8
+     },
+     "QUICK_R": {
+      "top_10": 3.6495,
+      "n": 8
+     },
+     "QUICK_R_QUANT_CHANGE": {
+      "top_10": 6.5,
+      "n": 8
+     },
+     "CURR_R_QUANT": {
+      "top_10": 80.3,
+      "n": 8
+     },
+     "CURR_R": {
+      "top_10": 3.0428,
+      "n": 8
+     },
+     "CURR_R_QUANT_CHANGE": {
+      "top_10": 14.1,
+      "n": 8
+     },
+     "INST_OWN_QUANT": {
+      "top_10": 90.9,
+      "n": 8
+     },
+     "INST_OWN": {
+      "top_10": 0.3411,
+      "n": 8
+     },
+     "INST_OWN_QUANT_CHANGE": {
+      "top_10": 15.0,
+      "n": 8
+     },
+     "INSIDER_OWN_QUANT": {
+      "top_10": 47.6,
+      "n": 6
+     },
+     "INSIDER_OWN": {
+      "top_10": 0.1407,
+      "n": 6
+     },
+     "INSIDER_OWN_QUANT_CHANGE": {
+      "top_10": 6.2,
+      "n": 6
+     },
+     "AVG_VOLUME_QUANT": {
+      "top_10": 95.7,
+      "n": 8
+     },
+     "AVG_VOLUME": {
+      "top_10": 36490000.0,
+      "n": 8
+     },
+     "AVG_VOLUME_QUANT_CHANGE": {
+      "top_10": 13.6,
+      "n": 8
+     },
+     "FHS_ANN_90_SCALED_VOL_QUANT": {
+      "top_10": 26.9,
+      "n": 5
+     },
+     "FHS_ANN_90_SCALED_VOL": {
+      "top_10": 0.253,
+      "n": 5
+     },
+     "FHS_ANN_90_SCALED_VOL_QUANT_CHANGE": {
+      "top_10": -12.9,
+      "n": 5
+     },
+     "Q_VOL_QUANT": {
+      "top_10": 14.0,
+      "n": 8
+     },
+     "Q_VOL": {
+      "top_10": 0.1674,
+      "n": 8
+     },
+     "Q_VOL_QUANT_CHANGE": {
+      "top_10": -11.2,
+      "n": 8
+     },
+     "VOLATILITY_W_QUANT": {
+      "top_10": 22.7,
+      "n": 8
+     },
+     "VOLATILITY_W": {
+      "top_10": 0.228,
+      "n": 8
+     },
+     "VOLATILITY_W_QUANT_CHANGE": {
+      "top_10": -6.2,
+      "n": 8
+     },
+     "VOLATILITY_M_QUANT": {
+      "top_10": 6.3,
+      "n": 8
+     },
+     "VOLATILITY_M": {
+      "top_10": 0.2553,
+      "n": 8
+     },
+     "VOLATILITY_M_QUANT_CHANGE": {
+      "top_10": -8.3,
+      "n": 8
+     },
+     "VAR_H_QUANT": {
+      "top_10": 95.0,
+      "n": 8
+     },
+     "VAR_H": {
+      "top_10": -0.047352,
+      "n": 8
+     },
+     "VAR_H_QUANT_CHANGE": {
+      "top_10": 14.5,
+      "n": 8
+     },
+     "C_VAR_QUANT": {
+      "top_10": 78.7,
+      "n": 8
+     },
+     "C_VAR": {
+      "top_10": -0.027534,
+      "n": 8
+     },
+     "C_VAR_QUANT_CHANGE": {
+      "top_10": 9.3,
+      "n": 8
+     },
+     "FHS_VAR_QUANT": {
+      "top_10": 97.9,
+      "n": 7
+     },
+     "FHS_VAR": {
+      "top_10": -0.031208,
+      "n": 7
+     },
+     "FHS_VAR_QUANT_CHANGE": {
+      "top_10": 13.6,
+      "n": 7
+     },
+     "FHS_CVAR_QUANT": {
+      "top_10": 81.8,
+      "n": 7
+     },
+     "FHS_CVAR": {
+      "top_10": -0.036497,
+      "n": 7
+     },
+     "FHS_CVAR_QUANT_CHANGE": {
+      "top_10": 12.6,
+      "n": 7
+     },
+     "PRE_FHS_ANN_VOL_QUANT": {
+      "top_10": 81.9,
+      "n": 1
+     },
+     "PRE_Q_VOL_ANNZD_QUANT": {
+      "top_10": 42.0,
+      "n": 2
+     },
+     "VALUATION_SPREAD": {
+      "top_10": -0.1409,
+      "n": 7
+     },
+     "VALUATION_SPREAD_PRIOR": {
+      "top_10": -0.1969,
+      "n": 5
+     }
+    }
+   }
+  }
+ }
+}

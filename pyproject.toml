@@ -1,0 +1,69 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "earningspy-glass"
+version = "0.1.0"
+description = "The official Python client for the EarningSpy API — fetch a company against its peers and chart the comparison."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "EarningSpy" }]
+keywords = ["earnings", "peers", "finance", "charts", "plotly", "earningspy"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Financial :: Investment",
+]
+
+# Deliberately minimal. pandas is NOT a dependency and must stay that way — it is
+# a heavy thing for a web service or a spreadsheet plugin to inherit, and nothing
+# here needs it.
+dependencies = [
+    "plotly>=5.22,<7",
+    "requests>=2.31,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "pytest-cov>=5"]
+sample = ["numpy>=1.26"]         # tools/make_sample.py only
+
+[project.urls]
+Homepage = "https://earningspy.ai"
+"API reference" = "https://earningspy.ai"
+Repository = "https://github.com/c4road/earningspy-glass"
+Changelog = "https://github.com/c4road/earningspy-glass/blob/main/CHANGELOG.md"
+Issues = "https://github.com/c4road/earningspy-glass/issues"
+"Field catalogue" = "https://earningspy.ai/api/catalog.json"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/earningspy_glass"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "README.md", "CHANGELOG.md", "LICENSE", "NOTICE", "pyproject.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["earningspy_glass"]
+
+[tool.coverage.report]
+fail_under = 92
+exclude_also = ["raise AssertionError"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "S", "UP"]
+ignore = ["B905", "E501"]        # zip over lists built together; long copy strings
