@@ -1,10 +1,8 @@
 # Changelog
 
-All notable changes to earningspy-glass. The format follows
-[Keep a Changelog](https://keepachangelog.com/) and the project uses semantic
-versioning.
-
-## [Unreleased]
+All notable changes to earningspy-glass, which uses
+[semantic versioning](https://semver.org/). Before 1.0, a breaking change raises the minor
+version. This file is written by the release process.
 
 ## [0.1.0]
 
