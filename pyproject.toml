@@ -27,7 +27,7 @@ classifiers = [
 # a heavy thing for a web service or a spreadsheet plugin to inherit, and nothing
 # here needs it.
 dependencies = [
-    "plotly>=5.22,<7",
+    "plotly>=5.22,<8",
     "requests>=2.31,<3",
 ]
 
