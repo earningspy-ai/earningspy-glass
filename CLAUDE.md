@@ -69,7 +69,7 @@ You may create a branch, commit, push that branch and open a pull request withou
 2. One pull request, one purpose. Commit in steps that each make sense alone. Stage files by name and read `git diff --staged` before committing.
 3. Commit email is a GitHub noreply address; check `git config user.email` before the first commit.
 4. Commit messages are [Conventional Commits](https://www.conventionalcommits.org/): an imperative summary, then a body with why the change is needed.
-5. Open it with `gh pr create --title … --body-file …`, filling `.github/pull_request_template.md`.
+5. Open it with `gh pr create --title … --body-file …`, filling `.github/pull_request_template.md`. The *PR title* check refuses a title in another form, and a description whose *What changes for the user*, *Why* or *Checked* is missing or empty.
 
 **The title becomes the commit on `main` and a line in the release notes**, so write it for someone who uses the package:
 

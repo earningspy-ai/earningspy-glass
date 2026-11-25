@@ -1,7 +1,8 @@
 name: PR title
 
 # A pull request is squashed into one commit named by its title, and the release notes
-# are written from those names: the title is what a client reads.
+# are written from those names: the title is what a client reads. The description keeps
+# why; the sections that must be filled are the template's. Bots write their own.
 
 on:
   pull_request:
@@ -31,3 +32,24 @@ jobs:
           if [ "${#TITLE}" -gt 100 ]; then
             echo "::error::Title is ${#TITLE} characters; keep it to 100."; exit 1
           fi
+
+      - name: The description is filled in
+        if: always() && github.event.pull_request.user.type != 'Bot'
+        env:
+          BODY: ${{ github.event.pull_request.body }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          import sys
+
+          REQUIRED = ["What changes for the user", "Why", "Checked"]
+          body = re.sub(r"<!--.*?-->", "", os.environ["BODY"].replace("\r\n", "\n"), flags=re.S)
+          parts = re.split(r"^##[ \t]+(.+?)[ \t]*$", body, flags=re.M)
+          sections = {title.lower(): text.strip() for title, text in zip(parts[1::2], parts[2::2])}
+          empty = [name for name in REQUIRED if not sections.get(name.lower())]
+          if empty:
+              print(f"::error::Fill in the description: {', '.join('## ' + name for name in empty)} "
+                    "(see .github/pull_request_template.md).")
+              sys.exit(1)
+          PY
