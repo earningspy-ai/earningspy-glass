@@ -30,7 +30,8 @@ with `ZZ`): never add real data to this repository.
 
 Title the pull request as a [Conventional Commit](https://www.conventionalcommits.org/)
 (`fix(peers): keep negative margins on the axis`): the title becomes the commit and the
-release note. Leave the version and the changelog alone; [RELEASING.md](RELEASING.md) says
+release note. Fill in the template's *What changes for the user*, *Why* and *Checked*: a check
+refuses a pull request without them. Leave the version and the changelog alone; [RELEASING.md](RELEASING.md) says
 how they are made.
 
 By contributing you agree that your work is licensed under Apache-2.0.
