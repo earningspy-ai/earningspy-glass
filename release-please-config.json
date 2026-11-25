@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "bootstrap-sha": "1b4a850658994801138ed62af0f443e1716f5db7",
+  "include-component-in-tag": false,
+  "bump-minor-pre-major": true,
+  "draft": true,
+  "force-tag-creation": true,
+  "pull-request-header": "Merging this releases the version below: it is tagged, built and tested, then waits for approval before it goes to PyPI. Read the notes as a client would.",
+  "changelog-sections": [
+    { "type": "feat", "section": "Added" },
+    { "type": "fix", "section": "Fixed" },
+    { "type": "perf", "section": "Performance" },
+    { "type": "deps", "section": "Dependencies" },
+    { "type": "revert", "section": "Reverted" },
+    { "type": "docs", "section": "Documentation", "hidden": true },
+    { "type": "refactor", "section": "Internal", "hidden": true },
+    { "type": "test", "section": "Internal", "hidden": true },
+    { "type": "build", "section": "Internal", "hidden": true },
+    { "type": "ci", "section": "Internal", "hidden": true },
+    { "type": "style", "section": "Internal", "hidden": true },
+    { "type": "chore", "section": "Internal", "hidden": true }
+  ],
+  "packages": {
+    ".": { "release-type": "python", "package-name": "earningspy-glass" }
+  }
+}

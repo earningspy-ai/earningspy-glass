@@ -20,12 +20,17 @@ travels in a header over HTTPS and never reaches a figure, a message or a file; 
 
 ```bash
 python -m venv .venv && . .venv/bin/activate
-pip install -e ".[test]" ruff
+pip install -e ".[test]" -r .github/requirements/quality.txt
 pytest
-ruff check src
+ruff check .
 ```
 
 The tests use no network and no key. Every company in them is invented (tickers start
 with `ZZ`): never add real data to this repository.
+
+Title the pull request as a [Conventional Commit](https://www.conventionalcommits.org/)
+(`fix(peers): keep negative margins on the axis`): the title becomes the commit and the
+release note. Leave the version and the changelog alone; [RELEASING.md](RELEASING.md) says
+how they are made.
 
 By contributing you agree that your work is licensed under Apache-2.0.

@@ -1,0 +1,4 @@
+actionlint-py==1.7.12.25
+pip-audit==2.10.1
+ruff==0.17.6
+zizmor==1.33.1

@@ -1,0 +1,40 @@
+name: Release PR
+
+# Keeps one release pull request open with the next version and its notes, worked out
+# from the titles merged since the last release. Merging that pull request tags the
+# version and drafts its GitHub release; the tag starts release.yml.
+#
+# It acts as a GitHub App, because what the built-in token creates starts no workflow:
+# the release pull request would have no checks and the tag would build nothing.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: release-please
+  cancel-in-progress: false
+
+jobs:
+  release-please:
+    name: Update the release pull request
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: github.ref == 'refs/heads/main'
+    environment: release-bot       # holds the App's key; main only
+    steps:
+      - id: app
+        uses: actions/create-github-app-token@f418cff399f7aef4c2f0ad47e25ca7a6abbdd6fc  # v3.4.0
+        with:
+          client-id: ${{ vars.RELEASE_APP_CLIENT_ID }}
+          private-key: ${{ secrets.RELEASE_APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+          permission-issues: write
+
+      - uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7  # v5.0.0
+        with:
+          token: ${{ steps.app.outputs.token }}

@@ -1,0 +1,19 @@
+{
+  "attribution": {
+    "commit": ""
+  },
+  "permissions": {
+    "deny": [
+      "Bash(git push origin main:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push --tags:*)",
+      "Bash(git tag:*)",
+      "Bash(gh pr merge:*)",
+      "Bash(gh release:*)",
+      "Bash(gh workflow run:*)",
+      "Bash(twine upload:*)",
+      "Read(./.env)"
+    ]
+  }
+}

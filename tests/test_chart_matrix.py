@@ -1,6 +1,5 @@
 """Every chart kind against its options: what it draws, and what it refuses."""
 import copy
-import datetime
 
 import plotly.graph_objects as go
 import pytest

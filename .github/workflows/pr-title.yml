@@ -1,0 +1,33 @@
+name: PR title
+
+# A pull request is squashed into one commit named by its title, and the release notes
+# are written from those names: the title is what a client reads.
+
+on:
+  pull_request:
+    types: [opened, edited, reopened, synchronize]
+
+permissions: {}
+
+concurrency:
+  group: pr-title-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  title:
+    name: PR title
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: The title is a Conventional Commit
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          types='feat|fix|perf|deps|revert|docs|refactor|test|build|ci|style|chore'
+          if ! [[ "$TITLE" =~ ^($types)(\([a-z0-9._/-]+\))?!?:\ [^[:space:]].*$ ]]; then
+            echo "::error::Title must read 'type(scope): summary', with type one of ${types//|/, }. Add ! before the colon for a breaking change."
+            exit 1
+          fi
+          if [ "${#TITLE}" -gt 100 ]; then
+            echo "::error::Title is ${#TITLE} characters; keep it to 100."; exit 1
+          fi
