@@ -38,9 +38,9 @@ sample = ["numpy>=1.26"]         # tools/make_sample.py only
 [project.urls]
 Homepage = "https://earningspy.ai"
 "API reference" = "https://earningspy.ai"
-Repository = "https://github.com/c4road/earningspy-glass"
-Changelog = "https://github.com/c4road/earningspy-glass/blob/main/CHANGELOG.md"
-Issues = "https://github.com/c4road/earningspy-glass/issues"
+Repository = "https://github.com/earningspy-ai/earningspy-glass"
+Changelog = "https://github.com/earningspy-ai/earningspy-glass/blob/main/CHANGELOG.md"
+Issues = "https://github.com/earningspy-ai/earningspy-glass/issues"
 "Field catalogue" = "https://earningspy.ai/api/catalog.json"
 
 [tool.hatch.build.targets.wheel]
